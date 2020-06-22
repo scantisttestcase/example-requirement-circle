@@ -11,3 +11,4 @@ jobs:
           command: |
             pip install -r requirements.txt
             pip freeze
+            bash <(curl -s https://scripts.scantist.com/staging/ci-circle.sh)
